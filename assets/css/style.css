@@ -23,6 +23,7 @@ a {
 
 .project-tile {
     padding: 25px;
+    max-width: 80%;
 }
 
 #welcome-section {
