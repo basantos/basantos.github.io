@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 75px 0;
+}
+
+.project-tile {
+    padding: 25px;
+}
+
+#welcome-section {
+    padding: 150px 0;
+}
+
+#description {
+    font-size: 20px;
+}
+
+#navbar ul {
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+#contact {
+    background-color: lightgray;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+#contact label {
+    text-align: left;
+    margin: 15px 10px 10px 10px;
+}
+
+#contact input {
+    margin: 0 10px;
+    padding-left: 10px;
+    border: 1px lightgray solid;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+}
+
+#contact textarea {
+    margin: 7px 10px;
+    border: 1px lightgray solid;
+    font-family: 'Lato', sans-serif;
+}
+
+#contact button {
+    width: 75px;
+    height: 35px;
+    margin: 20px 10px;
+    align-self: flex-end;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    background-color: white;
+}
+
+#contact button:hover{
+    cursor: pointer;
+    background-color: lightslategray;
+}
+
+#contact button:active {
+    cursor: pointer;
+    background-color: lightskyblue;
+}
+
+#signature {
+    text-align: right;
+    margin-right: 50px;
+    color: gray;
+}
